@@ -9,7 +9,7 @@
 
 @font-face{
 	font-family: myFontB2;
-	src:url('../fonts/Mf Sippin On Sunshine.ttf');
+	src:url('../fonts/PassionTea.ttf');
 }
 @font-face{
 
