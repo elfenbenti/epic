@@ -3,6 +3,7 @@
 <html>
 <head>
 <style>
+
 div.content1 {
     margin-left: 100px;
 }
@@ -16,6 +17,7 @@ div.sideleft {
     width: 150px;
     padding: 10px;
 }
+
 
 ul {
     margin: 0;
@@ -35,7 +37,7 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: black;
+    color: red;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -44,12 +46,21 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+@font-face{
+    font-family: myFontUn;
+    src:url('../fonts/Amatic-Bold.ttf');
+}
+
+@font-face{
+    font-family: myFontDos;
+    src:url('../fonts/Sprinklecolors.ttf');
+}
+
 </style>
 </head>
 <div class="content1">
     <div class="sideleft">
         <ul>
-<li>  <p align ="LEFT"><img src="beb.jpg" alt="benti" border="4" style="width:142px;height:142px;border:4" onmouseover=this.src="bebyoung.jpg" onmouseout=this.src="beb.jpg"> </li>
 
             <li> <a href="http://www.vg.no"><img src="vg.jpg" alt="vg" style="width:80px;height:35px;"></a></li>
             <li><a href="http://www.db.no"><img src="db.png" alt="db" style="width:150px;height:35px;"></a></li>
@@ -70,29 +81,32 @@ a:active {
     <!-- content -->
 
 </div>
-<body bgcolor="pink">
-<font face="impact" color="white" size="10"><p align ="center">Hallo! Velkommen......</p>
-<p align ="center"> Jeg er <span style="color:brown;font-weight:bold">Bent-Einar</span> </p>
-<p align='center'> jeg jobber p&#229 Vinderen AKS</font></p>
+<body bgcolor="black">
 
-<table align="right">
+<font color="white" size="8" style="font-family: myFontUn;">
+<table align="right" >
+<tr>
+    <th> <font color="white" size="5" style="font-family: myFontUn;"><p>Vinderen AKS</font></p>
+    </th>
+
+</tr>
 <tr>
     <th>
-        <p align ="right"><img src = "villa.jpg"  alt="villa" style="width:450px;height:350px;" border="8" onmouseover=this.src="villaCo.jpg" onmouseout=this.src="villa.jpg"></p>
+        <p align ="right"> <img src = "villa.jpg"  alt="villa" style="width:450px;height:350px;" border="8" onmouseover=this.src="villaCo.jpg" onmouseout=this.src="villa.jpg"></p>
     </th>
     <th>
         <ul  style="list-style-type:none">
-        <li><font face="impact" color="white" size="7"><p align ="right">220 barn</li>
-        <li><font face="impact" color="white" size="7"><p align ="right">3 baser</li>
-        <li><font face="impact" color="white" size="6.5"><p align ="center">fra skoleslutt til 1630</li>
+        <li><font color="white" size="7" style="font-family: myFontUn"><p align ="center">-220 barn</li>
+        <li><font  color="white" size="7" style="font-family: myFontUn"><p align ="center">-3 baser</li>
+        <li><font  color="white" size="6.5" style="font-family: myFontUn"><p align ="center">-fra skoleslutt til 1630</li>
         </ul>
     </th>
 </tr>
 
 <tr>
     <th>
-        <font face="impact" color="white" size="6" >
-        <p align ="right">Jeg jobber ogs&#229 p&#229 en <span style="color:brown;font-weight:bold">Moské</span></p>
+        <font  color="white" size="5" style="font-family: myFontUn" >
+        <p align ="right">Jeg jobber ogs&#229 p&#229 en <span style="color:brown;font-weight:bold">Mosk&eacute</span></p>
     </th>
 </tr>
 <tr>
@@ -101,14 +115,14 @@ a:active {
     </th>
     <th>
         <ul  style="list-style-type:none">
-        <li><font face="impact" color="white" size="5"><p align ="right">
+        <li><font  color="white" size="5" style="font-family: myFontUn"><p align ="right">
             <a href="http://www.tyrkiskorg.no/">Tyrkiske Organisasjoner</li>
         </ul>
     </th>
 </tr>
 <tr>
     <th>
-        <font face="impact" color="white" size="6" >
+        <font color="white" size="5" style="font-family: myFontUn;">
         <p align='right'>og som<span style="color:brown;font-weight:bold"> privatl&#230rer i Matte</font></span></p>
     </th>
 </tr>
@@ -118,22 +132,17 @@ a:active {
     </th>
     <th>
         <ul  style="list-style-type:none">
-        <li><font face="impact" color="white" size="5"><p align ="right">
+        <li><font  color="white" size="5" style="font-family: myFontUn"><p align ="right">
             <a href="http://privatundervisningen.no/videregaende/laerere">Privatundervisningen A/S </li>
         </ul>
     </th>
 
 </tr>    
-<tr>
-    <th>
-        <font face="impact" color="white" size="6" >
-        <p align ="center">Klikk på mine <span style="color:brown;font-weight:bold">hobbybilder</span> da vel...</p>
-    </th>
-    <th> 
-        <a href="hobby.html"><img src="hobby3.jpg" alt="hobby" style="width:200px;height:100px;" border="8"></a>
-    </th>
-</tr>
+
 </table>
+
+
+
 
 </body>
 </html>
