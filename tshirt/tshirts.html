@@ -46,7 +46,9 @@ th:hover{
 </head>
 
 
-<body bgcolor ="black" link="pink">
+<body bgcolor ="#191619" link="pink">
+
+
 <p align="center">
 <img src="benti1.png" width=1000 height=800><br>
 
@@ -54,7 +56,50 @@ th:hover{
 
 <img src="mix2.png" width=1000 height=800><br>
 
-<img src="vic.png" width=1000 height=800><br>
+
+<button type="button" align="center" onclick=changeImage()>Klikk for &aring endre farge!</button><br>
+<img id ="myImage" src="vic.png" width=1000 height=800>
+
+
+<script>
+
+
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("vic1.png")) {
+        image.src = "vic2.png";
+    }
+    else if (image.src.match("vic2.png")) {
+        image.src="vic3.png";
+    }
+ else if (image.src.match("vic3.png")) {
+        image.src="vic4.png";
+    } else if (image.src.match("vic4.png")) {
+        image.src="vic5.png";
+    } else if (image.src.match("vic5.png")) {
+        image.src="vic6.png";
+    } else if (image.src.match("vic6.png")) {
+        image.src="vic7.png";
+    } else if (image.src.match("vic7.png")) {
+        image.src="vic8.png";
+    }
+
+  else if (image.src.match("vic8.png")) {
+        image.src="vic9.png";
+    }
+    else {
+	image.src="vic1.png"
+    }
+
+}
+
+</script>
+
+<br>
+<img src="bella.png" width=1000 height=800><br>
+<img src="bent6.png" width=1000 height=800><br>
+<img src="hanleia2.png" width=1000 height=800><br>
+
 
 </p>
 </body>
