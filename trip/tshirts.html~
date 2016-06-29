@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+
+<head>
+
+<style type="text/css">
+
+@font-face {
+
+	font-family: myFont;
+	src:url('./fonts/FFF_Tusj.ttf');
+	
+	}
+@font-face {
+
+	font-family: myFontTwo;
+	src:url('./fonts/Nobile-Medium.ttf');
+	
+	}
+
+body {background-image:url(""); background-repeat: no-repeat; background-position: 100% 0%; background-size: 1000px 400px; 
+}
+
+
+a:link{ color: #pink;
+
+}
+
+a:visited{
+	color: pink;
+}
+a:hover{
+	color:pink;
+}
+table{
+	color: pink;font-size: 60px;
+	font-family: "Comic Sans Ms",serif;
+}
+th:hover{
+	color: pink;
+
+}
+
+</style>
+
+</head>
+
+
+<body bgcolor ="#191619" link="pink">
+
+
+<p align="center">
+
+<button type="button" align="center" onclick=changeImage()>Klikk for &aring endre bilde!</button><br>
+<img id ="myImage" src="IMG_9034.JPG" width=1000 height=800>
+
+
+<script>
+
+
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("IMG_9034.JPG")) {
+        image.src = "IMG_8896.JPG";
+    }
+    else if (image.src.match("IMG_8896.JPG")) {
+        image.src="IMG_8897.JPG";
+    }
+ else if (image.src.match("IMG_8897.JPG")) {
+        image.src="IMG_8898.JPG";
+    } else if (image.src.match("IMG_8898.JPG")) {
+        image.src="IMG_8899.JPG";
+    } else if (image.src.match("IMG_8899.JPG")) {
+        image.src="IMG_8900.JPG";
+    } else if (image.src.match("IMG_8900.JPG")) {
+        image.src="IMG_8901.JPG";
+    } else if (image.src.match("IMG_8901.JPG")) {
+        image.src="IMG_8913.JPG";
+    }
+else if (image.src.match("IMG_8913.JPG")) {
+        image.src="IMG_8921.JPG";
+    } else if (image.src.match("IMG_8921.JPG")) {
+        image.src="IMG_8936.JPG";
+    } else if (image.src.match("IMG_8936.JPG")) {
+        image.src="IMG_8946.JPG";
+    } else if (image.src.match("IMG_8946.JPG")) {
+        image.src="IMG_8947.JPG";
+    }
+
+else if (image.src.match("IMG_8947.JPG")) {
+        image.src="IMG_8950.JPG";
+    } else if (image.src.match("IMG_8950.JPG")) {
+        image.src="IMG_8955.JPG";
+    } else if (image.src.match("IMG_8955.JPG")) {
+        image.src="IMG_8957.JPG";
+    } else if (image.src.match("IMG_8957.JPG")) {
+        image.src="IMG_8962.JPG";
+    }
+
+else if (image.src.match("IMG_8962.JPG")) {
+        image.src="IMG_8975.JPG";
+    } else if (image.src.match("IMG_8975.JPG")) {
+        image.src="IMG_8981.JPG";
+    } else if (image.src.match("IMG_8981.JPG")) {
+        image.src="IMG_8986.JPG";
+    } else if (image.src.match("IMG_8986.JPG")) {
+        image.src="IMG_8997.JPG";
+    }
+
+else if (image.src.match("IMG_8997.JPG")) {
+        image.src="IMG_9010.JPG";
+    } else if (image.src.match("IMG_9010.JPG")) {
+        image.src="IMG_9013.JPG";
+    } else if (image.src.match("IMG_9013.JPG")) {
+        image.src="IMG_9023.JPG";
+    } else if (image.src.match("IMG_9023.JPG")) {
+        image.src="IMG_9032.JPG";
+    }
+
+
+else if (image.src.match("IMG_9032.JPG")) {
+        image.src="IMG_9034.JPG";
+    } else if (image.src.match("IMG_9034.JPG")) {
+        image.src="IMG_9038.JPG";
+    } else if (image.src.match("IMG_9038.JPG")) {
+        image.src="IMG_9046.JPG";
+    } else if (image.src.match("IMG_9046.JPG")) {
+        image.src="IMG_9052.JPG";
+    }
+
+
+else if (image.src.match("IMG_9052.JPG")) {
+        image.src="IMG_9060.JPG";
+    } else if (image.src.match("IMG_9060.JPG")) {
+        image.src="IMG_9063.JPG";
+    } else if (image.src.match("IMG_9063.JPG")) {
+        image.src="IMG_9067.JPG";
+    } else if (image.src.match("IMG_9067.JPG")) {
+        image.src="IMG_9068.JPG";
+    }
+
+else if (image.src.match("IMG_9068.JPG")) {
+        image.src="IMG_9069.JPG";
+    } else if (image.src.match("IMG_9069.JPG")) {
+        image.src="IMG_9071.JPG";
+    } else if (image.src.match("IMG_9071.JPG")) {
+        image.src="IMG_9074.JPG";
+    } else if (image.src.match("IMG_9074.JPG")) {
+        image.src="IMG_9079.JPG";
+    }
+
+else if (image.src.match("IMG_9079.JPG")) {
+        image.src="IMG_9090.JPG";
+    } else if (image.src.match("IMG_9090.JPG")) {
+        image.src="IMG_9093.JPG";
+    } else if (image.src.match("IMG_9093.JPG")) {
+        image.src="IMG_9107.JPG";
+    } else if (image.src.match("IMG_9107.JPG")) {
+        image.src="IMG_9117.JPG";
+    }
+
+
+else if (image.src.match("IMG_9117.JPG")) {
+        image.src="IMG_9118.JPG";
+    } else if (image.src.match("IMG_9118.JPG")) {
+        image.src="IMG_9119.JPG";
+    } else if (image.src.match("IMG_9119.JPG")) {
+        image.src="IMG_9120.JPG";
+    } else if (image.src.match("IMG_9120.JPG")) {
+        image.src="IMG_9121.JPG";
+    }
+
+
+else if (image.src.match("IMG_9121.JPG")) {
+        image.src="IMG_9122.JPG";
+    } else if (image.src.match("IMG_9122.JPG")) {
+        image.src="IMG_9124.JPG";
+    } else if (image.src.match("IMG_9124.JPG")) {
+        image.src="IMG_9127.JPG";
+    } else if (image.src.match("IMG_9127.JPG")) {
+        image.src="IMG_9131.JPG";
+    }
+
+
+else if (image.src.match("IMG_9131.JPG")) {
+        image.src="IMG_9133.JPG";
+    } else if (image.src.match("IMG_9133.JPG")) {
+        image.src="IMG_9140.JPG";
+    } else if (image.src.match("IMG_9140.JPG")) {
+        image.src="IMG_9156.JPG";
+    } else if (image.src.match("IMG_9156.JPG")) {
+        image.src="IMG_9146.JPG";
+    }
+    else {
+	image.src="IMG_9146.JPG"
+    }
+
+}
+
+</script>
+
+</p>
+</body>
+
+</html>

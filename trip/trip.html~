@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+
+<head>
+
+<style type="text/css">
+
+@font-face {
+
+	font-family: myFont;
+	src:url('./fonts/FFF_Tusj.ttf');
+	
+	}
+@font-face {
+
+	font-family: myFontTwo;
+	src:url('./fonts/Nobile-Medium.ttf');
+	
+	}
+
+body {background-image:url(""); background-repeat: no-repeat; background-position: 100% 0%; background-size: 1000px 400px; 
+}
+
+
+a:link{ color: #pink;
+
+}
+
+a:visited{
+	color: pink;
+}
+a:hover{
+	color:pink;
+}
+table{
+	color: pink;font-size: 60px;
+	font-family: "Comic Sans Ms",serif;
+}
+th:hover{
+	color: pink;
+
+}
+
+</style>
+
+</head>
+
+
+<body bgcolor ="#191619" link="pink">
+
+
+<p align="center">
+
+<img src="IMG_9034.JPG" height=400 width=600>
+<img src="IMG_8896.JPG" height=400 width=600><br>
+<img src="IMG_8897.JPG" height=400 width=600>
+
+<img src="IMG_8900.JPG" height=400 width=600><br>
+<img src="IMG_8901.JPG" height=400 width=600><br><br><br><br><br><br><br>
+<img src="IMG_8913.JPG" style="width:600px; height:400px;transform: rotate(-90deg);" ><br><br><br><br><br><br><br>
+
+<img src="IMG_8921.JPG" height=400 width=600>
+<img src="IMG_8936.JPG" height=400 width=600><br>
+<img src="IMG_8946.JPG" height=400 width=600>
+
+<img src="IMG_8947.JPG" height=400 width=600><br>
+<img src="IMG_8950.JPG" height=400 width=600><br><br><br>
+<img src="IMG_8955.JPG" height=400 width=600><br>
+
+<img src="IMG_8957.JPG" height=400 width=600>
+<img src="IMG_8962.JPG" height=400 width=600><br>
+<img src="IMG_8975.JPG" height=400 width=600>
+
+<img src="IMG_8981.JPG" height=400 width=600><br>
+<img src="IMG_8986.JPG" height=400 width=600><br><br><br>
+<img src="IMG_8997.JPG" height=400 width=600><br>
+
+
+<img src="IMG_9010.JPG" height=400 width=600><br><br><br><br><br><br><br>
+<img src="IMG_9013.JPG" height=400 width=600 style="transform: rotate(-90deg);" ><br><br><br><br><br><br><br><br>
+<img src="IMG_9023.JPG" height=400 width=600>
+
+<img src="IMG_9032.JPG" height=400 width=600><br>
+<img src="IMG_9034.JPG" height=400 width=600>
+<img src="IMG_9038.JPG" height=400 width=600><br>
+
+
+<img src="IMG_9046.JPG" height=400 width=600><br><br><br>
+<img src="IMG_9052.JPG" height=400 width=600><br>
+<img src="IMG_9060.JPG" height=400 width=600>
+
+<img src="IMG_9063.JPG" height=400 width=600><br>
+<img src="IMG_9067.JPG" height=400 width=600><br><br><br>
+<img src="IMG_9068.JPG" height=400 width=600><br>
+
+<img src="IMG_9069.JPG" height=400 width=600>
+<img src="IMG_9071.JPG" height=400 width=600><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="IMG_9074.JPG" height=400 width=600 style="transform: rotate(-90deg);" >
+
+<img src="IMG_9079.JPG" height=400 width=600 style="transform: rotate(-90deg);" ><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="IMG_9090.JPG" height=400 width=600 style="transform: rotate(-90deg);" >
+<img src="IMG_9093.JPG" height=400 width=600 style="transform: rotate(-90deg);" ><br><br><br><br><br><br><br><br>
+
+<img src="IMG_9107.JPG" height=400 width=600>
+<img src="IMG_9117.JPG" height=400 width=600><br>
+<img src="IMG_9118.JPG" height=400 width=600><br><br><br>
+
+<img src="IMG_9119.JPG" height=400 width=600><br>
+<img src="IMG_9120.JPG" height=400 width=600>
+<img src="IMG_9121.JPG" height=400 width=600><br>
+
+<img src="IMG_9122.JPG" height=400 width=600><br><br><br>
+<img src="IMG_9124.JPG" height=400 width=600><br>
+<img src="IMG_9127.JPG" height=400 width=600>
+
+<img src="IMG_9131.JPG" height=400 width=600><br>
+<img src="IMG_9156.JPG" height=400 width=600><br><br><br>
+<img src="IMG_9133.JPG" height=400 width=600><br>
+
+<img src="IMG_9140.JPG" height=400 width=600>
+<img src="IMG_9146.JPG" height=400 width=600><br>
+
+
+
+<script>
+
+
+
+
+</p>
+</body>
+
+</html>
