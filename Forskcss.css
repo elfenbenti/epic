@@ -31,6 +31,16 @@ flex-container > * {
 
 @font-face{
 
+	font-family: duoFontFont;
+	src: url(./fonts/FFF_Tusj.ttf)
+}
+
+h1{
+	font-family: duoFontFont;
+
+}
+@font-face{
+
 	font-family: headFont;
 	src: url(./fonts/FlunkiesBB.otf)
 }
