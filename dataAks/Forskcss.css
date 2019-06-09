@@ -1,0 +1,68 @@
+body{
+
+	background-color: silver;
+}
+
+nav ul{
+list-style-type: none;
+padding: 0;
+
+}
+
+a{
+	color:RoyalBlue;
+	 
+}
+
+
+flex-container{
+
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow:row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+flex-container > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%
+
+}
+
+@font-face{
+
+	font-family: headFont;
+	src: url(FlunkiesBB.otf)
+}
+
+
+@font-face{
+
+	font-family: CapFont;
+	src: url(Romochka.otf)
+}
+div{
+
+	border: 15px solid CornflowerBlue;
+	padding: 20px;
+	width: 900px;
+	min-height: 400px;
+	text-align: justify;
+	font-family: "CapFont", impact;
+	text-align: center;
+	margin: auto;
+	font-size: 80px;
+	color: RoyalBlue;
+	font-weight: bold;
+		
+}
+
+header{
+	background-color: black;
+	color: Cornsilk;
+	font-family: "headFont", verdana ;
+	text-align: center;
+
+}
